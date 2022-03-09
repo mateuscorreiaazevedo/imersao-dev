@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(#444, #333);
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversor-content {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+}
+
+#conversor {
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.conversor-content label {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.conversor-btn {
+    width: 100px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.conversor-btn:hover {
+    cursor: pointer;
+}
