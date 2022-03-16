@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #444;
+    min-height: 100vh;
+}
+
+#navbar {
+    width: 100%;
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.navbar-logo {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    color: #eee;
+    background-color: rgba(15, 15, 15, 0.2);
+    border-radius: 20px;
+    align-content: center;
+    cursor: pointer;
+}
+
+.insert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.insert label {
+    color: #eee;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+
+}
+
+.insert input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.insert input::placeholder {
+    text-align: center;
+}
+
+.insert button {
+    background-color: red;
+    border: none;
+    color: #eee;
+    width: 190px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.insert button:hover {
+    background: rgb(219, 48, 48);
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.posters {
+    width: 0%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#poster img{
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #222;
+}
+#title-poster {
+    font-size: 26px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #eee;
+    text-shadow: 5px 10px 10px #222;
+}

@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    max-width: 100%;
+    background: linear-gradient(#444, #333);
+    text-align: center;
+}
+.container-table {
+    display: flex;
+    justify-content: center;
+}
+table {
+    border: #fff;
+    color: #fff;
+}
+td, th {
+    padding:0.1rem 0.3rem;
+}
